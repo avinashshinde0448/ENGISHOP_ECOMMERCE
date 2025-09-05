@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org"
+	th:replace="~{base::Layout(~{::section})}">
+<head>
+<meta charset="UTF-8">
+<title>EngiShop</title>
+</head>
+<body>
+	<section>
+		<!-- Start Slider  -->
+
+		<div id="carouselExample" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/Brown Minimalist Beauty Blog Banner.png"
+						class="d-block w-100" alt="..." height="350px">
+				</div>
+				<div class="carousel-item">
+					<img src="img/Green Minimalist Summer Big Sale Medium Banner.png"
+						class="d-block w-100" alt="..." height="350px">
+				</div>
+				<div class="carousel-item">
+					<img
+						src="img/Green Graphic New Arrivals Website Homepage Banner.png"
+						class="d-block w-100" alt="..." height="350px">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button"
+				data-bs-target="#carouselExample" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button"
+				data-bs-target="#carouselExample" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+		<!-- End Slider  -->
+
+		<!-- Category Start   -->
+
+		<div class="container">
+			<div class="row">
+				<p class="text-center fs-4">Category</p>
+
+				<div class="col-md-2 d-flex justify-content-center my-3">
+					<div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded"
+						style="width: 130px; height: 160px; border-radius: 50%; background-color: #87CEFA; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center; padding: 10px;">
+
+						<img src="/img/electronic.png" alt="Electronics"
+							style="max-width: 80px; max-height: 80px; object-fit: contain; margin-bottom: 5px;">
+
+						<span
+							style="font-size: 14px; color : black;font-weight: 500; font-family: monospace;">Electronics</span>
+					</div>
+				</div>
+
+				<div class="col-md-2 d-flex justify-content-center my-3">
+					<div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded"
+						style="width: 130px; height: 160px; border-radius: 50%; background-color: #87CEFA; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center; padding: 10px;">
+
+						<img src="/img/beauty.png" alt="Electronics"
+							style="max-width: 80px; max-height: 80px; object-fit: contain; margin-bottom: 5px;">
+
+						<span
+							style="font-size: 14px; font-weight: 500; font-family: monospace;">Beauty</span>
+					</div>
+				</div>
+
+				<div class="col-md-2 d-flex justify-content-center my-3">
+					<div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded"
+						style="width: 130px; height: 160px; border-radius: 50%; background-color: #87CEFA; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center; padding: 10px;">
+
+						<img src="/img/Clothes.png" alt="Electronics"
+							style="max-width: 80px; max-height: 80px; object-fit: contain; margin-bottom: 5px;">
+
+						<span
+							style="font-size: 14px; font-weight: 500; font-family: monospace;">Clothes</span>
+					</div>
+				</div>
+
+				<div class="col-md-2 d-flex justify-content-center my-3">
+					<div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded"
+						style="width: 130px; height: 160px; border-radius: 50%; background-color: #87CEFA; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center; padding: 10px;">
+
+						<img src="/img/mobile.png" alt="Electronics"
+							style="max-width: 80px; max-height: 80px; object-fit: contain; margin-bottom: 5px;">
+
+						<span
+							style="font-size: 14px; font-weight: 500; font-family: monospace;">Mobile</span>
+					</div>
+				</div>
+
+				<div class="col-md-2 d-flex justify-content-center my-3">
+					<div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded"
+						style="width: 130px; height: 160px; border-radius: 50%; background-color: #87CEFA; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center; padding: 10px;">
+
+						<img src="/img/grocery.png" alt="Electronics"
+							style="max-width: 80px; max-height: 80px; object-fit: contain; margin-bottom: 5px;">
+
+						<span
+							style="font-size: 14px; font-weight: 500; font-family: monospace;">Grocery</span>
+					</div>
+				</div>
+
+				<div class="col-md-2 d-flex justify-content-center my-3">
+					<div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded"
+						style="width: 130px; height: 160px; border-radius: 50%; background-color: #87CEFA; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center; padding: 10px;">
+
+						<img src="/img/laptop.png" alt="Electronics"
+							style="max-width: 80px; max-height: 80px; object-fit: contain; margin-bottom: 5px;">
+
+						<span
+							style="font-size: 14px; font-weight: 500; font-family: monospace;">Laptop</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+		<!-- Category End -->
+	</section>
+
+</body>
+</html>
